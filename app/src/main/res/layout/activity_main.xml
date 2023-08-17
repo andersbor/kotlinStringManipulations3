@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editText_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Some text"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/button_lower_case"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClicked"
+        android:text="Lower case" />
+
+    <Button
+        android:id="@+id/button_upper_case"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="buttonClicked"
+        android:text="Upper case" />
+
+    <Button
+        android:id="@+id/button_capitalize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Capitalize" />
+
+    <Button
+        android:id="@+id/button_reverse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reverse" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
